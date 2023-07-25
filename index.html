@@ -11,18 +11,85 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-    
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        .font-lato{
+        .font-lato {
             font-family: 'Lato', sans-serif;
         }
     </style>
-    
-    <title>Document</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <title>Fruit Brust</title>
 </head>
 
 <body>
+    <header class="container mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
 
+                <div class="">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-5 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                            <li>
+                                <!-- <div class="form-control relative"> -->
+                                    <input type="text" placeholder="Search" class="relative input input-bordered w-28 p-5 md:w-auto " />
+                                <!-- </div> -->
+                                <!-- <div class="absolute mr-5"> -->
+                                    <i class="fa-solid fa-magnifying-glass top-4 left-16 absolute"></i>
+                                <!-- </div> -->
+                            
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="navbar-start hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-center">
+                    <img src="./images/logo.png" alt="">
+                    <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+                </div>
+                <div class="navbar-end hidden lg:flex">
+                    <!-- <a class="btn">Button</a> -->
+                    <div class="form-control relative">
+                        <input type="text" placeholder="Search" class="input input-bordered w-24 p-5 md:w-auto " />
+                    </div>
+                    <div class="absolute mr-5"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 
 </html>
